@@ -1,0 +1,9 @@
+C:\1_Programming\1_C#\1_ExampleResources\6_EnterpriseNetCoreApp_Xaml_Entity\EnterpriseApp_GIT\FriendOrganizer.DataAccess\bin\Debug\FriendOrganizer.DataAccess.dll
+C:\1_Programming\1_C#\1_ExampleResources\6_EnterpriseNetCoreApp_Xaml_Entity\EnterpriseApp_GIT\FriendOrganizer.DataAccess\bin\Debug\FriendOrganizer.DataAccess.pdb
+C:\1_Programming\1_C#\1_ExampleResources\6_EnterpriseNetCoreApp_Xaml_Entity\EnterpriseApp_GIT\FriendOrganizer.DataAccess\bin\Debug\FriendOrganizer.Model.dll
+C:\1_Programming\1_C#\1_ExampleResources\6_EnterpriseNetCoreApp_Xaml_Entity\EnterpriseApp_GIT\FriendOrganizer.DataAccess\bin\Debug\FriendOrganizer.Model.pdb
+C:\1_Programming\1_C#\1_ExampleResources\6_EnterpriseNetCoreApp_Xaml_Entity\EnterpriseApp_GIT\FriendOrganizer.DataAccess\obj\Debug\FriendOrganizer.DataAccess.csproj.AssemblyReference.cache
+C:\1_Programming\1_C#\1_ExampleResources\6_EnterpriseNetCoreApp_Xaml_Entity\EnterpriseApp_GIT\FriendOrganizer.DataAccess\obj\Debug\FriendOrganizer.DataAccess.csproj.CoreCompileInputs.cache
+C:\1_Programming\1_C#\1_ExampleResources\6_EnterpriseNetCoreApp_Xaml_Entity\EnterpriseApp_GIT\FriendOrganizer.DataAccess\obj\Debug\FriendOrganizer.DataAccess.csproj.CopyComplete
+C:\1_Programming\1_C#\1_ExampleResources\6_EnterpriseNetCoreApp_Xaml_Entity\EnterpriseApp_GIT\FriendOrganizer.DataAccess\obj\Debug\FriendOrganizer.DataAccess.dll
+C:\1_Programming\1_C#\1_ExampleResources\6_EnterpriseNetCoreApp_Xaml_Entity\EnterpriseApp_GIT\FriendOrganizer.DataAccess\obj\Debug\FriendOrganizer.DataAccess.pdb

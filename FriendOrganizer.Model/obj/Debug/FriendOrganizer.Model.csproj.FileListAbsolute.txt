@@ -1,0 +1,6 @@
+C:\1_Programming\1_C#\1_ExampleResources\6_EnterpriseNetCoreApp_Xaml_Entity\EnterpriseApp_GIT\FriendOrganizer.Model\bin\Debug\FriendOrganizer.Model.dll
+C:\1_Programming\1_C#\1_ExampleResources\6_EnterpriseNetCoreApp_Xaml_Entity\EnterpriseApp_GIT\FriendOrganizer.Model\bin\Debug\FriendOrganizer.Model.pdb
+C:\1_Programming\1_C#\1_ExampleResources\6_EnterpriseNetCoreApp_Xaml_Entity\EnterpriseApp_GIT\FriendOrganizer.Model\obj\Debug\FriendOrganizer.Model.csproj.AssemblyReference.cache
+C:\1_Programming\1_C#\1_ExampleResources\6_EnterpriseNetCoreApp_Xaml_Entity\EnterpriseApp_GIT\FriendOrganizer.Model\obj\Debug\FriendOrganizer.Model.csproj.CoreCompileInputs.cache
+C:\1_Programming\1_C#\1_ExampleResources\6_EnterpriseNetCoreApp_Xaml_Entity\EnterpriseApp_GIT\FriendOrganizer.Model\obj\Debug\FriendOrganizer.Model.dll
+C:\1_Programming\1_C#\1_ExampleResources\6_EnterpriseNetCoreApp_Xaml_Entity\EnterpriseApp_GIT\FriendOrganizer.Model\obj\Debug\FriendOrganizer.Model.pdb
