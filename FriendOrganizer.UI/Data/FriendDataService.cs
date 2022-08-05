@@ -1,18 +1,30 @@
-﻿using FriendOrganizer.Model;
+﻿using FriendOrganizer.DataAccess;
+using FriendOrganizer.Model;
+using System;
 using System.Collections.Generic;
+using System.Data.Entity;
+using System.Linq;
+using System.Threading.Tasks;
 
 namespace FriendOrganizer.UI.Data
 {
     public class FriendDataService : IFriendDataService
     {
+        private Func<FriendOrganizerDbContext> _contextCreator;
+
+        public FriendDataService(Func<FriendOrganizerDbContext> contextCreator)
+        {
+            _contextCreator = contextCreator;
+        }
+
         // Make method to return data until data base is ready.
-        public IEnumerable<Friend> GetAll()
+        public async Task<List<Friend>> GetAllAsync()
         {
             // TODO: Load data from real database
-            yield return new Friend { Firstname = "Thomas", LastName = "Huber" };
-            yield return new Friend { Firstname = "Andreas", LastName = "Boehler" };
-            yield return new Friend { Firstname = "Julia", LastName = "Huber" };
-            yield return new Friend { Firstname = "Chrissi", LastName = "Egin" };
+            using (var ctx = _contextCreator())    //  First was new FriendOrganizerDbContext()). But using bootstrapper is possible.
+             {
+                return await ctx.Friends.AsNoTracking().ToListAsync();
+            }
         }
 
     }

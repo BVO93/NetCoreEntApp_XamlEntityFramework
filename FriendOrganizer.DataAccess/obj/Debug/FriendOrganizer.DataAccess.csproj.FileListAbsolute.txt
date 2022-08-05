@@ -7,3 +7,10 @@ C:\1_Programming\1_C#\1_ExampleResources\6_EnterpriseNetCoreApp_Xaml_Entity\Ente
 C:\1_Programming\1_C#\1_ExampleResources\6_EnterpriseNetCoreApp_Xaml_Entity\EnterpriseApp_GIT\FriendOrganizer.DataAccess\obj\Debug\FriendOrganizer.DataAccess.csproj.CopyComplete
 C:\1_Programming\1_C#\1_ExampleResources\6_EnterpriseNetCoreApp_Xaml_Entity\EnterpriseApp_GIT\FriendOrganizer.DataAccess\obj\Debug\FriendOrganizer.DataAccess.dll
 C:\1_Programming\1_C#\1_ExampleResources\6_EnterpriseNetCoreApp_Xaml_Entity\EnterpriseApp_GIT\FriendOrganizer.DataAccess\obj\Debug\FriendOrganizer.DataAccess.pdb
+C:\1_Programming\1_C#\1_ExampleResources\6_EnterpriseNetCoreApp_Xaml_Entity\EnterpriseApp_GIT\FriendOrganizer.DataAccess\bin\Debug\FriendOrganizer.DataAccess.dll.config
+C:\1_Programming\1_C#\1_ExampleResources\6_EnterpriseNetCoreApp_Xaml_Entity\EnterpriseApp_GIT\FriendOrganizer.DataAccess\bin\Debug\EntityFramework.dll
+C:\1_Programming\1_C#\1_ExampleResources\6_EnterpriseNetCoreApp_Xaml_Entity\EnterpriseApp_GIT\FriendOrganizer.DataAccess\bin\Debug\EntityFramework.SqlServer.dll
+C:\1_Programming\1_C#\1_ExampleResources\6_EnterpriseNetCoreApp_Xaml_Entity\EnterpriseApp_GIT\FriendOrganizer.DataAccess\bin\Debug\EntityFramework.xml
+C:\1_Programming\1_C#\1_ExampleResources\6_EnterpriseNetCoreApp_Xaml_Entity\EnterpriseApp_GIT\FriendOrganizer.DataAccess\bin\Debug\EntityFramework.SqlServer.xml
+C:\1_Programming\1_C#\1_ExampleResources\6_EnterpriseNetCoreApp_Xaml_Entity\EnterpriseApp_GIT\FriendOrganizer.DataAccess\obj\Debug\FriendOrganizer.DataAccess.Migrations.InitialDatabase.resources
+C:\1_Programming\1_C#\1_ExampleResources\6_EnterpriseNetCoreApp_Xaml_Entity\EnterpriseApp_GIT\FriendOrganizer.DataAccess\obj\Debug\FriendOrganizer.DataAccess.csproj.GenerateResource.cache
