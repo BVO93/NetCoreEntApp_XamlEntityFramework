@@ -4,6 +4,7 @@
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:FriendOrganizer.UI"
+        xmlns:view="clr-namespace:FriendOrganizer.UI.View"
         mc:Ignorable="d"
         Title="FriendOrganizer" Height="450" Width="800" FontSize="20">
     <Grid>
@@ -13,36 +14,16 @@
             
         </Grid.ColumnDefinitions>
 
+        <view:NavigationView DataContext="{Binding NavigationViewModel}"/>
+        <view:FriendDetailView Grid.Column="1" DataContext="{Binding FriendDetailViewModel}"/>
+        <!--
         <ListView ItemsSource="{Binding Friends}"
                   SelectedItem="{Binding SelectedFriend, Mode=TwoWay}"
                   DisplayMemberPath="Firstname"/>
-
-        <Grid Grid.Column="1">
-            <Grid.RowDefinitions>
-                <RowDefinition Height="Auto"/>
-                <RowDefinition Height="Auto"/>
-                <RowDefinition Height="Auto"/>
-                <RowDefinition Height="Auto"/>
-                <RowDefinition Height="Auto"/>
-                <RowDefinition Height="*"/>
-            </Grid.RowDefinitions>
-
-            <Label Content="FirstName" Margin="10 10 10 0"/>
-            <TextBox Grid.Row="1" Text="{Binding SelectedFriend.Firstname, Mode=TwoWay, 
-                                          UpdateSourceTrigger= PropertyChanged}" Margin="10 0 10 10"/>
-
-            <Label Grid.Row="2"  Content="LastName" Margin="10 10 10 0"/>
-            <TextBox Grid.Row="3" Text="{Binding SelectedFriend.LastName, Mode=TwoWay, 
-                                          UpdateSourceTrigger= PropertyChanged}" Margin="10 0 10 10"/>
-
-            <Label Grid.Row="4"  Content="Email" Margin="10 10 10 0"/>
-            <TextBox Grid.Row="5" Text="{Binding SelectedFriend.Email, Mode=TwoWay, 
-                                          UpdateSourceTrigger= PropertyChanged}" Margin="10 0 10 10"/>
-
-
+-->
+  
 
         </Grid>
         
-        
-    </Grid>
+       
 </Window>

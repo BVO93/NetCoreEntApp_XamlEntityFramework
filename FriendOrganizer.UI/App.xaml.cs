@@ -26,5 +26,9 @@ namespace FriendOrganizer.UI
             var mainWindow = container.Resolve<MainWindow>();
             mainWindow.Show();
         }
+
+        // This resolve part replaces the other way of doing this.
+        // var mainWindow = new MainWindow( new MainViewModel ( new FriendDataService()));
+        // mainWindow.show();
     }
 }

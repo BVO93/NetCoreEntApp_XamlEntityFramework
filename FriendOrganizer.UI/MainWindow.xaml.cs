@@ -17,6 +17,8 @@ namespace FriendOrganizer.UI
             Loaded += MainViewModel_Loaded;
         }
 
+
+        // Seperate load method since calling method in constructor is bad practice.
         private async void MainViewModel_Loaded(object sender, RoutedEventArgs e)
         {
             await _viewModel.LoadAsync();

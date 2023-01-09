@@ -18,12 +18,12 @@ namespace FriendOrganizer.UI.Data
         }
 
         // Make method to return data until data base is ready.
-        public async Task<List<Friend>> GetAllAsync()
+        public async Task<Friend> GetByIdAsync(int friendId)
         {
             // TODO: Load data from real database
             using (var ctx = _contextCreator())    //  First was new FriendOrganizerDbContext()). But using bootstrapper is possible.
              {
-                return await ctx.Friends.AsNoTracking().ToListAsync();
+                return await ctx.Friends.AsNoTracking().SingleAsync(f => f.Id == friendId);
             }
         }
 

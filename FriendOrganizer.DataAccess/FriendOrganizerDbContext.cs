@@ -6,6 +6,7 @@ namespace FriendOrganizer.DataAccess
 {
     public class  FriendOrganizerDbContext : DbContext
     {
+        // FrinedOrganizerDb is a connection string to make connection later
         public FriendOrganizerDbContext() : base("FriendOrganizerDb")
         {
 
