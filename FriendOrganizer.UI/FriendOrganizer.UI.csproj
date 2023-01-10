@@ -98,6 +98,7 @@
     </ApplicationDefinition>
     <Compile Include="Data\IFriendLookupDataService.cs" />
     <Compile Include="Data\LookupDataService.cs" />
+    <Compile Include="Event\OpenFriendDetailViewEvent.cs" />
     <Compile Include="Startup\Bootstrapper.cs" />
     <Compile Include="ViewModel\FriendDetailViewModel.cs" />
     <Compile Include="ViewModel\IFriendDetailViewModel.cs" />

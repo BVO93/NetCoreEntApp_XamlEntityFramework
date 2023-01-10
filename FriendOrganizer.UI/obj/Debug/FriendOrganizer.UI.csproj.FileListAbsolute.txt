@@ -141,3 +141,7 @@ C:\1_Programming\1_C#\1_ExampleResources\6_EnterpriseNetCoreApp_Xaml_Entity\Ente
 C:\1_Programming\1_C#\1_ExampleResources\6_EnterpriseNetCoreApp_Xaml_Entity\EnterpriseApp_GIT\FriendOrganizer.UI\obj\Debug\View\NavigationView.baml
 C:\1_Programming\1_C#\1_ExampleResources\6_EnterpriseNetCoreApp_Xaml_Entity\EnterpriseApp_GIT\FriendOrganizer.UI\obj\Debug\View\FriendDetailView.g.cs
 C:\1_Programming\1_C#\1_ExampleResources\6_EnterpriseNetCoreApp_Xaml_Entity\EnterpriseApp_GIT\FriendOrganizer.UI\obj\Debug\View\FriendDetailView.baml
+C:\1_Programming\1_C#\1_ExampleResources\6_EnterpriseNetCoreApp_Xaml_Entity\EnterpriseApp_GIT\FriendOrganizer.UI\bin\Debug\Prism.dll
+C:\1_Programming\1_C#\1_ExampleResources\6_EnterpriseNetCoreApp_Xaml_Entity\EnterpriseApp_GIT\FriendOrganizer.UI\bin\Debug\Prism.pdb
+C:\1_Programming\1_C#\1_ExampleResources\6_EnterpriseNetCoreApp_Xaml_Entity\EnterpriseApp_GIT\FriendOrganizer.UI\bin\Debug\Prism.xml
+C:\1_Programming\1_C#\1_ExampleResources\6_EnterpriseNetCoreApp_Xaml_Entity\EnterpriseApp_GIT\FriendOrganizer.UI\bin\Debug\System.ValueTuple.xml
