@@ -23,6 +23,7 @@ namespace FriendOrganizer.UI.ViewModel
             _friendLookupService = friendLookupService;
             _eventAggregator = eventAggregator;
             Friends = new ObservableCollection<NavigationItemViewModel>();
+            // #8 Subscribe to event generated on update
             _eventAggregator.GetEvent<AfterFriendSavedEvent>().Subscribe(AfterFriendSaved);
         }
 
@@ -57,7 +58,8 @@ namespace FriendOrganizer.UI.ViewModel
             }
 
         }
-       
+
+        // #8 Event handler on event firing.
         private void AfterFriendSaved(AfterFriendSavedEventArgs obj)
         {
             var LookupItem = Friends.Single(l => l.Id == obj.Id);

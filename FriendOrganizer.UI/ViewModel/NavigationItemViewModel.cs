@@ -8,6 +8,8 @@ namespace FriendOrganizer.UI.ViewModel
 {
    public class NavigationItemViewModel : ViewModelBase
     {
+        // #8 We make this navigationItemViewModel because we inherent from VMBase and use OnPropertyChanged
+        // The original lookupitem did not inherent from base and does not have  onpropertyachanged
 
         private string _displayMember;
 
@@ -25,6 +27,7 @@ namespace FriendOrganizer.UI.ViewModel
             set
             {
                 _displayMember = value;
+                // #8 Have 
                 OnPropertyChanged();
 
             }

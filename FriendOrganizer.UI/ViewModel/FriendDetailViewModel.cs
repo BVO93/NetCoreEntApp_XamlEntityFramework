@@ -25,20 +25,24 @@ namespace FriendOrganizer.UI.ViewModel
             _eventAggregator.GetEvent<OpenFriendDetailViewEvent>()
                 .Subscribe(OnOpenFriendDetailView);
 
+            // #8 Declaration of save command 
             SaveCommand = new DelegateCommand(OnSaveExecute, OnSaveCanExecute);
         }
+
+        // #8 Icommand declaration
+        public ICommand SaveCommand { get; }
 
         private bool OnSaveCanExecute()
         {
             // Is runned at startup 
-
             return true;
-           
         }
 
+        // #8  Method on save command 
         private async  void OnSaveExecute()
         {
             await _dataService.SaveAsync(Friend);
+            // #8 After we have saved the update we have to notify the navigationVm 
             _eventAggregator.GetEvent<AfterFriendSavedEvent>().Publish(
                 new AfterFriendSavedEventArgs
                 {
@@ -69,8 +73,6 @@ namespace FriendOrganizer.UI.ViewModel
             await LoadAsync(friendId);
         }
 
-        // COMMAND IMPLEMENT
-        public ICommand SaveCommand { get; }
 
 
     }

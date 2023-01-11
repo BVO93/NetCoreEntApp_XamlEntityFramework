@@ -27,6 +27,7 @@ namespace FriendOrganizer.UI.Data
             }
         }
 
+        // #8 Save updated friend to the database. Use Entity framework
         public async Task SaveAsync(Friend friend)
         {
            using (var ctx = _contextCreator())
